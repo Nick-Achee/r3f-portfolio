@@ -19,7 +19,7 @@ const IndexPage: NextPage = () => (
       <meta name="og:title" property="og:title" content="Personal experiments with react-three-fiber"></meta>
       <meta name="robots" content="index, follow"></meta>
     </Head>
-    <HomeContainer className="h-100" />
+    <HomeContainer />
 
 
   </>
