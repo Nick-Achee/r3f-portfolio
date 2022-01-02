@@ -51,11 +51,10 @@ function HomeContainer(): React.ReactElement {
           // @ts-ignore
           style={{ width: '100%' }}>
             <h1 className="rounded-lg" style={{ position: 'absolute', top: `100vh`, right: '20vw', fontSize: '8em', transform: `translate3d(0,-100%,0)` }}>Learning in Public</h1>
-            <div className="text-8xl absolute top-100">Hello</div>
-            <h1 style={{ position: 'absolute', top: '180vh', left: '10vw', fontSize: '5em' }}><a href="/bcf3c19d64414c0787ae7a5cd0676447">Real Estate</a></h1>
-            <h1 style={{ position: 'absolute', top: '260vh', right: '10vw', fontSize: '5em' }}>Blog</h1>
-            <h1 style={{ position: 'absolute', top: '350vh', left: '10vw', fontSize: '5em' }}>Project</h1>
-            <h1 style={{ position: 'absolute', top: '450vh', right: '10vw', fontSize: '5em' }}>
+            <h1 style={{ position: 'absolute', top: '180vh', left: '10vw', fontSize: '6em' }}><a href="/bcf3c19d64414c0787ae7a5cd0676447">Real Estate</a></h1>
+            <h1 style={{ position: 'absolute', top: '260vh', right: '10vw', fontSize: '6em' }}>Blog</h1>
+            <h1 style={{ position: 'absolute', top: '350vh', left: '10vw', fontSize: '6em' }}>Project</h1>
+            <h1 style={{ position: 'absolute', top: '450vh', right: '10vw', fontSize: '6em' }}>
               About
               <br />
               Me
