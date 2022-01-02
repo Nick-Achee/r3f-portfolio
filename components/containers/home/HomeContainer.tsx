@@ -16,7 +16,9 @@ function Item({ url, scale, ...props }): JSX.Element {
   });
   return (
     <group {...props}>
-      <Image ref={ref} scale={scale} url={url} />
+      <Image
+      // @ts-ignore
+      ref={ref} scale={scale} url={url} />
     </group>
   );
 }
@@ -45,7 +47,9 @@ function HomeContainer(): React.ReactElement {
         <color attach="background" args={['#fff']} /> <Suspense fallback={null}><ScrollControls damping={4} pages={5}>
 
           <Items />
-          <Scroll html style={{ width: '100%' }}>
+          <Scroll html
+          // @ts-ignore
+          style={{ width: '100%' }}>
             <h1 className="rounded-lg" style={{ position: 'absolute', top: `100vh`, right: '20vw', fontSize: '8em', transform: `translate3d(0,-100%,0)` }}>Learning in Public</h1>
             <div className="text-8xl absolute top-100">Hello</div>
             <h1 style={{ position: 'absolute', top: '180vh', left: '10vw', fontSize: '5em' }}><a href="/bcf3c19d64414c0787ae7a5cd0676447">Real Estate</a></h1>
