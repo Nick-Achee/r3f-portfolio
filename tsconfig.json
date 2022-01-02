@@ -16,5 +16,5 @@
     "jsx": "preserve"
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "postcss.config.js", "tailwind.config.js"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "postcss.config.js", "tailwind.config.js", "pages/_app.jsx", "components/Nav.jsx", "components/MainNav.jsx", "components/ThemeSwitch.jsx", "pages/_document.jsx", "pages/[pageId].jsx"]
 }
