@@ -67,11 +67,11 @@ export default function NotionPage({ recordMap }) {
   return (
     <>
       <Head>
-        <meta name='description' content='React Notion X demo renderer.' />
+        <meta name='Nicks Real Estate Notion' content='South Orange County Real Estate Market Explained' />
         <title>{title}</title>
       </Head>
 
-<div className="">
+<div className="pt-40">
       <NotionRenderer
         recordMap={recordMap}
         fullPage={true}

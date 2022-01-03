@@ -3,6 +3,8 @@ import { NextPage } from 'next';
 
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
+import { Suspense } from 'react';
+
 
 const HomeContainer = dynamic(
   () => import('../components/containers/home/HomeContainer'),
@@ -20,8 +22,6 @@ const IndexPage: NextPage = () => (
       <meta name="robots" content="index, follow"></meta>
     </Head>
     <HomeContainer />
-
-
   </>
 );
 

@@ -1,16 +1,15 @@
-import Link from 'next/link';
 import React from 'react';
 
 const Navigation = (): JSX.Element => {
   return (
-    <div className="absolute bg-black w-screen">
-      <Link href="/">
-        <a className="text-gray-900 dark:text-white pr-6 py-4">Home</a>
-      </Link>
-      <Link href="/about">
-        <a className="text-gray-900 dark:text-white px-6 py-4">About</a>
-      </Link>
-    </div>
+    <div style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', width: '100%', height: '100%', zIndex: '10' }}>
+        <a href="/" style={{ position: 'absolute', top: 40, left: 90, fontSize: '13px' }}>
+        Nick Achee
+        <br />
+        Building in Public
+        </a>
+        <div style={{ position: 'absolute', top: 40, right: 40, fontSize: '13px' }}><a href='mailto:nick.achee@compass.com'> email </a></div>
+      </div>
   );
 };
 
